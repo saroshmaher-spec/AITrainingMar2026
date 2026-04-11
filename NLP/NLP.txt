@@ -1,0 +1,149 @@
+NLP
+1. Pattern --  70 %  -- 
+2. context
+3. coorelation
+4. assumption
+5. understanding the data 
+6. Word --  rule  ( tokenization and stemming )
+7. respondingback ( like & dislike )
+
+NLP/Neural Network/Gen AI --  human interaction/behaviour/respond ( 1994 - 2017) 
+NLP -- 2009 - research -- automated the repeated work we do the customer support -
+(Data) Testing( success/failure - development ) -- technical purpose -- technical use case 
+Development/testing/data engineering/Devops/ infrastructure 
+
+indian Pattern -- religious ( expose) - festival come ( forget )
+1. state, religion, language ,family, money 
+
+US pattern - religious(  everyday , everyweek ) --
+1. Sport, polictics, state ( religion, family, money )
+
+
+
+pattern 
+1. company1 -- Data -- problem ( 1,2,3)  - solution - narrow down problem solving  -- 
+2. company2 -- problem( 4,5,6)  - solution 
+3. company3 -- problem (7,8,9) - solution 
+
+GenAI-(feed data) - library ( soft copy -- all types book )  -- problem / solution 
+
+1 coorelation  - problem statement in the book & solution in the book 
+
+1 colour/ purchase/ quality/price/ comparission - better -- chain of tought
+
+1 rule - filter 
+
+how to learn python 
+
+learn --  learning, learned, learn ,exploring, enhancing the skillset, training 
+
+python  -- java, c, c++, ruby, rust, go javascript 
+
+learn + python  --  book
+
+rule  - Ranking algorithm + transformer
+1. matching of the infomation 
+2. filter
+3. sorting
+4. ranking 
+5. summarization 
+ 2017 = transformer 
+6. relation between the Word
+7. intentent
+8. self-attention 
+
+Gen AI -- Data, set of rules to coorelate, pattern
+
+pattern for your company 
+1. problem 
+2. solution
+3. output 
+
+what is the best hospital in india ?
+
+
+what do you thing about apollo 
+
+problem --  solution -- clarifying your doubt -  ( good,  bad , workout on this time )
+
+Genai -- problem( 100 ) -- solution -  learn the pattern ( problem & solution )
+
+101  -- problem -- 1 solution ( 50)/2  solution (30)/ 3 solution(1)  -- ranking of the solution 
+
+chatgpt --  2019  -- 2025 -- stable (accuracy - 23% - 45% )
+
+chatgpt(data) + company(data - experience ) -- learning -- problem /solution -- publish 
+
+problem ( 100 % ) -- solution -- problem( 80 % ) - solution -- problem(50 % ) - soltuion  - problem (0) - 
+ 1 decision  2. try the solution 
+
+
+automation- rules - 1,2,3,4 -- 5 
+genAI (data - pattern, context, learned)- rule - 1,2( 3,4) - 5  - Agentic AI 
+
+
+NLP:  summary of pipeline 
+1. Lexical analytics - understanding the raw text and converting that in token/tokenization ( dividing that into individual words)
+2. syntactic analytics - understanding the grammatical formation of the sentence, grammar, structure, how do we frame the sentence
+3. semantic analytics - understanding the meaning of the word, extracting the information 
+4. Discources integration -- understanding the context across the sentence
+5. pragramatic analytics  - understanding the intent , hidden meaning, 
+
+training model -  searches 
+
+Transformer -  feed the data -- 
+
+NLP use case: text 
+ self-service automation  - >  GenAI 
+1. sentiment analytics 
+2. toxicity classification  - threats, insulting , gender bias
+3. machine translation --  english -- french ( 60 % ) /software live translater - voice/text
+4. Named entity recognition  - extracting the core word with information ( place, person, country, state, ) - OCR -- scan  - ( amount, bill information , date, number, data) - medical / insurance 
+5. spam detection - microsoft -  ( external mail - tag -  price, award, register to get the award) -- spam  - probability - spam or not spam
+6. topic modeling - collection of topic -- short notes -  + syntactical analytics - text summarization 
+7. text genertion 
+    tweet , blogs, auto email reply , search 
+    chatbot - rule based  -- banking sector , customer care 
+
+8 Q & A  - ( how to create a account ? --  you need to login to the page , )
+ how to open a account  vs how to create a account ?  60% 
+ you need to login to the page
+
+ 1. how to create a account 
+ 2 account creation 
+ 3 how to open a account 
+ 4 account opening details  -- 
+
+
+ how to create a account  --    create, account -- create account -- fetch - screen 
+
+ NLP:
+ 1. Tokenization  -- i am working on python - i, am, working, on, python  - word tokenization , sentence tokenization 
+ 2. stop word -- ( i , am , on - stop word or filler word ) -- working, python 
+ 3. Stemming and lemmatization --  stemming - work , pyth   , lemmatization  work, python 
+ 4. chunking -- working python , work python, worked python  (  dividing the sentence with equal size of token )
+ 5. NER --   place, person, city, langauge,  corpus 
+
+  corpus -- group of word -- indian ( )
+  uk - corpus 
+
+data  - public, private  --  training  - model - correlation - meaning, relevant word , sentiment 
+
+nltk, spacy  -- 
+
+textblob - 
+
+BERT
+
+ROBERT
+ 
+ encoding 
+
+ onehot encoding 
+ i am learning python ( chunking)
+ 1[1,0,0,0
+  0,1,0,0 
+  0,0,1,0
+  0,0,0,1]
+
+  scikit-learn - package 

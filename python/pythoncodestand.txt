@@ -1,0 +1,47 @@
+import the module
+
+1.function - single reusable code / small task
+2.module - group of functions / class & variables
+3.package - group of modules 
+4.library - module + package
+
+
+Modules 
+inbuild modules - os, sys, platform, subprocess, pathllib, math, random, decimal, datetime, calender,
+json, CSV, pickle, regular expression, string 
+external module - we need to download and install - python os module
+pip3 --help 
+external modules - pip3 install <package name>
+Dont install packages in base machine 
+virtual environment - virtual manager (python packages/python related activities)
+Create a folder and convert the folder --> virtual system
+
+Virtual Environment Creation 
+1. venv
+Always work on Virtual Environment
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+source AITrainingMarch2026/bin/activate
+Different versions of Pandas and Numpy could be a conflict so install a venv for safe purpose
+
+
+
+2. virtualenv
+3. pipenv
+4. conda
+5. poetry
+
+
+
+
+consider 
+python language virtual environment 
+
+
+
+
+
+
+importing the modules 
+variables 
+function / class
+invoking the functions and class 
