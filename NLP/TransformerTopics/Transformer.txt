@@ -1,0 +1,23 @@
+Self-Attention 
+What it is: A mechanism that helps a model understand the importance of different words
+ within a sentence by computing attention scores between every pair of words. 
+
+How it works: 
+Each word in the input sequence is transformed into three vectors: a query (what a word is looking for), 
+a key (what a word contains), and a value (the word's actual content). 
+The similarity between a word's query and other words' keys is calculated to get attention scores. 
+These scores are normalized (e.g., using a softmax function) to create weights. 
+These weights are then used to take a weighted sum of the value vectors, producing a new representation
+ for the word that incorporates context from the entire sequence. 
+Multi-Head Attention
+What it is: An enhancement to self-attention that performs the self-attention process multiple times
+ in parallel. 
+How it works:
+Instead of a single set of query, key, and value vectors, the input is projected into multiple smaller sets for each "head". 
+Each head then performs its own self-attention calculation independently. 
+Because each head learns different projection matrices for Q, K, and V, they can learn to focus on different types of relationships and different parts of the input sequence. 
+The outputs from all the heads are then concatenated and linearly projected to produce the final output of the layer. 
+Key Differences Summarized
+Parallelism: Self-attention performs one attention computation, while multi-head attention runs multiple self-attention computations (heads) in parallel. 
+Focus: A single self-attention head focuses on one set of relationships. Multiple heads in multi-head attention can focus on diverse aspects and dependencies within the sequence. 
+Information Capture: Multi-head attention allows the model to jointly attend to information from different representation subspaces, enhancing its ability to capture complex relationships and patterns. 
