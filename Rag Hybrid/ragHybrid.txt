@@ -1,0 +1,26 @@
+ Troubleshooting application or platform /cloud log 
+
+touch app.log  -- oracle logs 
+
+RAG pipeline 
+
+Documents -- oracle troublesshooting 
+
+vector db -- training with this doc 
+
+oracle_rag_agent
+     data(pdf, log) 
+     main (rag_search -- input from the prompt from the file ( path)
+     dataloader
+           Load_data.py( convert the document present in data folder to embeding format )
+
+
+rag_search.py( travily) -- read the log files , Validate any error are present in the file , for that error we need to provide suggestion 
+rag_search_doc.py -- read the log files, validate the error, find any valid procedure present in the document 
+rag_search_doc_web.py --  output1( web ) output2(doc)  list(out1,out2) - model - summarize the  output3( summary of both the outputs)
+Streamlit.py -- input( file )
+
+git clone -b testbranch2  https://github.com/AIMLDirector/AITrainingFeb2026.git
+
+cd AITrainingFeb2026
+git pulls
